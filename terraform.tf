@@ -1,12 +1,13 @@
 terraform {
-
+	/* VCS driven workflow doesn not need this block
   cloud {
-    organization = "organization-name"
+    organization = "Kam-demo-work"
 
     workspaces {
       name = "learn-terraform-cloud"
     }
   }
+	*/
 
   required_providers {
     aws = {
