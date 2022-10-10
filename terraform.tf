@@ -1,12 +1,12 @@
 terraform {
-	/*
+
   cloud {
     organization = "Kam-demo-work"
 
     workspaces {
       name = "learn-terraform-cloud"
     }
-  }*/
+  }
 
 
   required_providers {
